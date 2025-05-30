@@ -1,4 +1,4 @@
-import { Conversation } from "../models/conversationModel";
+import { Conversation } from "../models/conversationModel.js";
 
 export const sendMessage = async (req,res)=>{
     try{
